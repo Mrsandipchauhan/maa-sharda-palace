@@ -41,22 +41,22 @@ const BLOG_POSTS = [
 export default function BlogIndex() {
   return (
     <>
-      <section style={{ backgroundColor: "var(--primary-color)", color: "white", padding: "3rem 0", textAlign: "center" }}>
+      <section className="page-header">
         <div className="container">
-          <h1 style={{ color: "var(--accent-color)" }}>Travel & Spiritual Guide</h1>
+          <h1 style={{ color: "var(--color-gold)" }}>Travel & Spiritual Guide</h1>
           <p>Tips, guides, and stories for your visit to Ujjain.</p>
         </div>
       </section>
 
-      <section style={{ padding: "4rem 0" }}>
+      <section style={{ padding: "var(--space-xl) 0" }}>
         <div className="container">
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "2rem" }}>
             {BLOG_POSTS.map(post => (
-              <div key={post.slug} style={{ border: "1px solid #eaeaea", borderRadius: "8px", padding: "2rem" }}>
+              <div key={post.slug} style={{ border: "1px solid rgba(212,175,55,0.2)", borderRadius: "8px", padding: "2rem", background: "rgba(10,10,10,0.5)" }}>
                 <h2 style={{ fontSize: "1.4rem", marginBottom: "1rem" }}>
-                  <Link href={`/blog/${post.slug}`} style={{ color: "var(--primary-color)" }}>{post.title}</Link>
+                  <Link href={`/blog/${post.slug}`} style={{ color: "var(--color-gold)" }}>{post.title}</Link>
                 </h2>
-                <p style={{ color: "#555", marginBottom: "1.5rem" }}>{post.excerpt}</p>
+                <p style={{ color: "var(--color-stone)", marginBottom: "1.5rem" }}>{post.excerpt}</p>
                 <Link href={`/blog/${post.slug}`} className="btn btn-outline">Read More</Link>
               </div>
             ))}

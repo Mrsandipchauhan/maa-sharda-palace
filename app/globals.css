@@ -213,6 +213,7 @@ section {
 .hero-content {
   text-align: center;
   z-index: 1;
+  width: 100%;
 }
 
 .hero-subtitle {
@@ -356,6 +357,20 @@ input[type="date"]::-webkit-calendar-picker-indicator:hover {
   text-align: center;
 }
 
+.page-header {
+  padding-top: calc(80px + var(--space-xl));
+  padding-bottom: var(--space-lg);
+  background: var(--color-obsidian);
+  text-align: center;
+}
+
+@media (max-width: 992px) {
+  .page-header {
+    padding-top: calc(60px + var(--space-lg));
+    padding-bottom: var(--space-md);
+  }
+}
+
 .footer-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -395,6 +410,21 @@ input[type="date"]::-webkit-calendar-picker-indicator:hover {
 
 /* Utilities */
 @media (max-width: 992px) {
+  :root {
+    --space-sm: 1rem;
+    --space-md: 2rem;
+    --space-lg: 3.5rem;
+    --space-xl: 5rem;
+  }
+  
+  .container {
+    padding: 0 1.25rem;
+  }
+
+  .hero-content {
+    padding: 0 1.25rem;
+  }
+
   .editorial-grid {
     grid-template-columns: 1fr;
     gap: 3rem;

@@ -18,17 +18,17 @@ export default function BanquetHalls() {
         </div>
       </section>
 
-      <section style={{ padding: "6rem 0" }}>
+      <section style={{ padding: "var(--space-xl) 0" }}>
         <div className="container">
-          <div style={{ textAlign: 'center', maxWidth: '800px', margin: '0 auto 6rem' }}>
+          <div style={{ textAlign: 'center', maxWidth: '800px', margin: '0 auto var(--space-xl)' }}>
             <p className="reveal-up delay-1" style={{ fontSize: '1.2rem', color: 'var(--color-alabaster)' }}>
               Maa Sharda Palace provides the most majestic settings for your life's greatest moments. Whether it is a grand Indian wedding or a distinguished corporate summit, our venues are crafted for perfection.
             </p>
           </div>
 
-          <div style={{ display: "flex", flexDirection: "column", gap: "6rem" }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: "var(--space-xl)" }}>
             {BANQUET_HALLS.map((hall, index) => (
-              <div key={hall.id} className="editorial-grid" style={{ gap: '4rem' }}>
+              <div key={hall.id} className="editorial-grid">
                 <div className={`img-col ${index % 2 !== 0 ? 'order-2' : ''} reveal-up delay-1`} style={{ order: index % 2 !== 0 ? 2 : 1 }}>
                   <div className="img-wrapper" style={{ paddingBottom: '80%' }}>
                     <Image src={hall.image} alt={hall.name} fill style={{ objectFit: 'cover' }} />

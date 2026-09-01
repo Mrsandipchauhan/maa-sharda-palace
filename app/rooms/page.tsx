@@ -19,11 +19,11 @@ export default function RoomsOverview() {
         </div>
       </section>
 
-      <section style={{ padding: "6rem 0" }}>
+      <section style={{ padding: "var(--space-xl) 0" }}>
         <div className="container">
-          <div style={{ display: "grid", gridTemplateColumns: "1fr", gap: "6rem" }}>
+          <div style={{ display: "grid", gridTemplateColumns: "1fr", gap: "var(--space-xl)" }}>
             {ROOMS_DATA.map((room, i) => (
-              <div key={room.id} className="editorial-grid" style={{ gap: '4rem' }}>
+              <div key={room.id} className="editorial-grid">
                 <div className={`img-col ${i % 2 !== 0 ? 'order-2' : ''} reveal-up delay-1`} style={{ order: i % 2 !== 0 ? 2 : 1 }}>
                   <div className="img-wrapper" style={{ paddingBottom: '70%' }}>
                     <Image src={room.image} alt={room.name} fill style={{ objectFit: 'cover' }} />

@@ -13,8 +13,8 @@ export default function About() {
   return (
     <>
       {/* Hero Section */}
-      <section className="section" style={{ paddingTop: "120px", paddingBottom: "3rem", background: "var(--color-obsidian)" }}>
-        <div className="container" style={{ textAlign: "center" }}>
+      <section className="page-header">
+        <div className="container">
           <h1 style={{ marginBottom: "1rem" }}>About {HOTEL_DATA.name}</h1>
 
           <p style={{ color: "var(--color-stone)", fontSize: "1.1rem", maxWidth: "600px", margin: "0 auto" }}>

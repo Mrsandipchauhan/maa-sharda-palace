@@ -79,7 +79,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section style={{ backgroundColor: 'var(--color-charcoal)', padding: '8rem 0' }}>
+      <section style={{ backgroundColor: 'var(--color-charcoal)', padding: 'var(--space-xl) 0' }}>
         <div className="container">
           <div className="editorial-grid reverse">
             <div className="text-col reveal-up">
@@ -142,7 +142,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section style={{ backgroundColor: 'var(--color-charcoal)', padding: '6rem 0', borderTop: '1px solid rgba(255,255,255,0.05)' }}>
+      <section style={{ backgroundColor: 'var(--color-charcoal)', padding: 'var(--space-xl) 0', borderTop: '1px solid rgba(255,255,255,0.05)' }}>
         <div className="container">
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '2rem' }}>
             {[
@@ -160,7 +160,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section style={{ padding: '8rem 0', backgroundColor: 'var(--color-obsidian)' }}>
+      <section style={{ padding: 'var(--space-xl) 0', backgroundColor: 'var(--color-obsidian)' }}>
         <div className="container" style={{ maxWidth: '900px' }}>
           <div className="text-center reveal-up">
             <h2 style={{ marginBottom: '4rem' }}>Frequently Asked Questions</h2>
