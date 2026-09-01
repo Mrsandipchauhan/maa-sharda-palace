@@ -14,14 +14,18 @@ export default function Gallery() {
 
   return (
     <>
-      <section style={{ backgroundColor: "var(--primary-color)", color: "white", padding: "3rem 0", textAlign: "center" }}>
-        <div className="container">
-          <h1 style={{ color: "var(--accent-color)" }}>Photo Gallery</h1>
-          <p>Take a tour of {HOTEL_DATA.name}.</p>
+      {/* Hero Section */}
+      <section className="section" style={{ paddingTop: "120px", paddingBottom: "3rem", background: "var(--color-obsidian)" }}>
+        <div className="container" style={{ textAlign: "center" }}>
+          <h1 style={{ marginBottom: "1rem" }}>Photo Gallery</h1>
+
+          <p style={{ color: "var(--color-stone)", fontSize: "1.1rem", maxWidth: "600px", margin: "0 auto" }}>
+            Take a tour of {HOTEL_DATA.name}.
+          </p>
         </div>
       </section>
 
-      <section style={{ padding: "4rem 0" }}>
+      <section className="section bg-charcoal">
         <div className="container">
           <div style={{ display: "flex", justifyContent: "center", gap: "1rem", marginBottom: "3rem", flexWrap: "wrap" }}>
             {categories.map((cat, idx) => (
@@ -32,8 +36,8 @@ export default function Gallery() {
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))", gap: "1rem" }}>
             {/* Gallery Placeholders */}
             {[...Array(8)].map((_, i) => (
-              <div key={i} style={{ background: "#ccc", height: "200px", borderRadius: "8px", display: "flex", alignItems: "center", justifyContent: "center" }}>
-                <span style={{ color: "#666" }}>[Gallery Image {i + 1}]</span>
+              <div key={i} style={{ background: "var(--color-obsidian)", border: "1px solid rgba(212, 175, 55, 0.1)", height: "200px", borderRadius: "8px", display: "flex", alignItems: "center", justifyContent: "center" }}>
+                <span style={{ color: "var(--color-stone)" }}>[Gallery Image {i + 1}]</span>
               </div>
             ))}
           </div>

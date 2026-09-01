@@ -12,20 +12,55 @@ export const metadata: Metadata = {
 export default function Amenities() {
   return (
     <>
-      <section style={{ backgroundColor: "var(--primary-color)", color: "white", padding: "3rem 0", textAlign: "center" }}>
-        <div className="container">
-          <h1 style={{ color: "var(--accent-color)" }}>Hotel Amenities & Facilities</h1>
-          <p>Everything you need for a comfortable and memorable stay.</p>
+      {/* Hero Section */}
+      <section className="section" style={{ paddingTop: "120px", paddingBottom: "3rem", background: "var(--color-obsidian)" }}>
+        <div className="container" style={{ textAlign: "center" }}>
+          <h1 style={{ marginBottom: "1rem" }}>Hotel Amenities & Facilities</h1>
+
+          <p style={{ color: "var(--color-stone)", fontSize: "1.1rem", maxWidth: "600px", margin: "0 auto" }}>
+            Experience world-class hospitality with our premium facilities designed for your comfort and convenience.
+          </p>
         </div>
       </section>
 
-      <section style={{ padding: "4rem 0" }}>
+      {/* Amenities Grid */}
+      <section className="section bg-charcoal">
         <div className="container">
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))", gap: "2rem" }}>
+          <div style={{ 
+            display: "grid", 
+            gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", 
+            gap: "2rem" 
+          }}>
             {PROPERTY_AMENITIES.map((amenity, index) => (
-              <div key={index} style={{ padding: "1.5rem", background: "var(--bg-color)", borderRadius: "8px", border: "1px solid #eaeaea", textAlign: "center" }}>
-                <span style={{ fontSize: "2rem", color: "var(--accent-color)", display: "block", marginBottom: "1rem" }}>✓</span>
-                <h3 style={{ fontSize: "1.2rem", margin: 0 }}>{amenity}</h3>
+              <div 
+                key={index} 
+                className="amenity-card"
+                style={{ 
+                  padding: "2rem", 
+                  background: "var(--color-obsidian)", 
+                  border: "1px solid rgba(212, 175, 55, 0.1)", 
+                  borderRadius: "8px", 
+                  textAlign: "center",
+                  transition: "transform 0.3s ease, border-color 0.3s ease"
+                }}
+              >
+                <div style={{ 
+                  width: "50px", 
+                  height: "50px", 
+                  margin: "0 auto 1.5rem", 
+                  borderRadius: "50%", 
+                  background: "rgba(212, 175, 55, 0.05)",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  color: "var(--color-gold)",
+                  fontSize: "1.5rem"
+                }}>
+                  ✦
+                </div>
+                <h3 style={{ fontSize: "1.1rem", margin: 0, color: "var(--color-alabaster)", letterSpacing: "0.05em", fontWeight: 500 }}>
+                  {amenity}
+                </h3>
               </div>
             ))}
           </div>

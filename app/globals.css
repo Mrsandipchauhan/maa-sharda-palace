@@ -130,6 +130,11 @@ section {
   color: var(--color-obsidian);
 }
 
+.amenity-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--color-gold) !important;
+}
+
 /* Header */
 .site-header {
   position: fixed;
@@ -317,13 +322,6 @@ section {
 }
 
 /* Utilities */
-.line-accent {
-  width: 2px;
-  height: 60px;
-  background-color: var(--color-gold);
-  margin: 0 auto 2rem;
-}
-
 @media (max-width: 992px) {
   .editorial-grid {
     grid-template-columns: 1fr;
