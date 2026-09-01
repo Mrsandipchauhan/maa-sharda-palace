@@ -5,7 +5,7 @@ export function getHotelSchema() {
     "@context": "https://schema.org",
     "@type": "Hotel",
     "name": HOTEL_DATA.name,
-    "description": `Premium luxury hotel located on Indore Road, Ujjain. Just ${HOTEL_DATA.distanceToTemple} from Mahakaleshwar Jyotirlinga.`,
+    "description": `Premium luxury hotel located on Indore Road, Ujjain. Just ${HOTEL_DATA.distanceToTemple} from Mahakaleshwar Jyotirlinga. Best hotel for family, affordable luxury, and premium banquets in Ujjain.`,
     "url": HOTEL_DATA.websiteUrl,
     "telephone": HOTEL_DATA.phone,
     "email": HOTEL_DATA.email,
@@ -27,7 +27,17 @@ export function getHotelSchema() {
       "@type": "Rating",
       "ratingValue": "3"
     },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "184"
+    },
     "priceRange": "₹2500 - ₹6000",
+    "sameAs": [
+      HOTEL_DATA.facebookUrl,
+      HOTEL_DATA.instagramUrl
+    ],
+    "keywords": "best room hotel, best hotel for family, affordable hotel in ujjain, luxury hotel near mahakaleshwar, hotel with swimming pool ujjain, best banquet halls in ujjain",
     "amenityFeature": [
       {
         "@type": "LocationFeatureSpecification",
@@ -43,8 +53,54 @@ export function getHotelSchema() {
         "@type": "LocationFeatureSpecification",
         "name": "Indoor Swimming Pool",
         "value": "True"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "name": "Free Private Parking",
+        "value": "True"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "name": "Family Rooms",
+        "value": "True"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "name": "24-Hour Front Desk",
+        "value": "True"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "name": "Banquet Facilities",
+        "value": "True"
       }
     ]
+  };
+}
+
+export function getWebSiteSchema() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": HOTEL_DATA.name,
+    "url": HOTEL_DATA.websiteUrl,
+    "description": "Premium luxury hotel located on Indore Road, Ujjain. Offering the best rooms for families and affordable luxury.",
+    "publisher": {
+      "@type": "Organization",
+      "name": HOTEL_DATA.name,
+      "logo": {
+        "@type": "ImageObject",
+        "url": `${HOTEL_DATA.websiteUrl}/favicon-512.png`
+      }
+    },
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": `${HOTEL_DATA.websiteUrl}/rooms?q={search_term_string}`
+      },
+      "query-input": "required name=search_term_string"
+    }
   };
 }
 

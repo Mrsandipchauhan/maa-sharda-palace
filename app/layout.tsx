@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { HOTEL_DATA } from "@/lib/data";
-import { getHotelSchema } from "@/lib/schema";
+import { getHotelSchema, getWebSiteSchema } from "@/lib/schema";
 import Link from "next/link";
 import SiteHeader from "@/components/SiteHeader";
 import ScrollToTop from "@/components/ScrollToTop";
@@ -9,11 +9,45 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 
 export const metadata: Metadata = {
   title: `${HOTEL_DATA.name} | Premium Luxury Hotel in Ujjain`,
-  description: `Experience unparalleled luxury at ${HOTEL_DATA.name}. Prime location near Mahakaleshwar Jyotirlinga, offering elegant rooms and majestic banquets.`,
+  description: `Experience unparalleled luxury at ${HOTEL_DATA.name}. Prime location near Mahakaleshwar Jyotirlinga, offering elegant rooms, family accommodations, and majestic banquets.`,
+  keywords: ["best room hotel", "best hotel for family", "affordable hotel in ujjain", "luxury hotel ujjain", "hotel near mahakaleshwar", "ujjain hotel with swimming pool", "best banquet halls in ujjain"],
   metadataBase: new URL(HOTEL_DATA.websiteUrl),
   alternates: {
     canonical: "/",
   },
+  openGraph: {
+    title: `${HOTEL_DATA.name} | Best Luxury Hotel in Ujjain`,
+    description: `Looking for the best hotel near Mahakaleshwar Temple? We offer premium luxury rooms, indoor pool, and the best banquet halls for a perfect stay.`,
+    url: HOTEL_DATA.websiteUrl,
+    siteName: HOTEL_DATA.name,
+    images: [
+      {
+        url: "/images/hero-exterior-v2.webp",
+        width: 1200,
+        height: 630,
+        alt: `${HOTEL_DATA.name} Exterior`,
+      }
+    ],
+    locale: "en_IN",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: `${HOTEL_DATA.name} | Premium Luxury Hotel in Ujjain`,
+    description: `Experience unparalleled luxury at ${HOTEL_DATA.name}. Prime location near Mahakaleshwar.`,
+    images: ["/images/hero-exterior-v2.webp"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  }
 };
 
 export default function RootLayout({
@@ -22,6 +56,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   const hotelSchema = getHotelSchema();
+  const websiteSchema = getWebSiteSchema();
 
   return (
     <html lang="en">
@@ -29,6 +64,10 @@ export default function RootLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(hotelSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
         />
       </head>
       <body>
