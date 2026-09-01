@@ -381,6 +381,11 @@ input[type="date"]::-webkit-calendar-picker-indicator:hover {
   padding: 0 1.25rem;
 }
 
+/* Default setting to prevent massive gaps below page headers */
+.page-header + section {
+  padding-top: var(--space-md) !important;
+}
+
 /* Blog Content Typography */
 .blog-content p {
   font-size: 1.15rem;

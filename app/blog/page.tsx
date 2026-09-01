@@ -55,7 +55,7 @@ export default function BlogIndex() {
         </div>
       </section>
 
-      <section style={{ padding: "var(--space-xl) 0" }}>
+      <section>
         <div className="container">
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "2rem" }}>
             {BLOG_POSTS.map(post => (
