@@ -43,8 +43,8 @@ export default function BlogIndex() {
     <>
       <section className="page-header">
         <div className="container">
-          <h1 style={{ color: "var(--color-gold)" }}>Travel & Spiritual Guide</h1>
-          <p>Tips, guides, and stories for your visit to Ujjain.</p>
+          <h1 style={{ color: "var(--color-gold)", marginBottom: "1rem" }}>Travel & Spiritual Guide</h1>
+          <p style={{ margin: "0 auto", color: "var(--color-stone)" }}>Tips, guides, and stories for your visit to Ujjain.</p>
         </div>
       </section>
 
@@ -52,12 +52,14 @@ export default function BlogIndex() {
         <div className="container">
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "2rem" }}>
             {BLOG_POSTS.map(post => (
-              <div key={post.slug} style={{ border: "1px solid rgba(212,175,55,0.2)", borderRadius: "8px", padding: "2rem", background: "rgba(10,10,10,0.5)" }}>
-                <h2 style={{ fontSize: "1.4rem", marginBottom: "1rem" }}>
-                  <Link href={`/blog/${post.slug}`} style={{ color: "var(--color-gold)" }}>{post.title}</Link>
+              <div key={post.slug} style={{ display: "flex", flexDirection: "column", border: "1px solid rgba(212,175,55,0.2)", borderRadius: "8px", padding: "2.5rem", background: "rgba(10,10,10,0.5)" }}>
+                <h2 style={{ fontSize: "1.5rem", marginBottom: "1rem", textAlign: "left", color: "var(--color-gold)" }}>
+                  <Link href={`/blog/${post.slug}`}>{post.title}</Link>
                 </h2>
-                <p style={{ color: "var(--color-stone)", marginBottom: "1.5rem" }}>{post.excerpt}</p>
-                <Link href={`/blog/${post.slug}`} className="btn btn-outline">Read More</Link>
+                <p style={{ color: "var(--color-stone)", marginBottom: "2rem", flex: 1 }}>{post.excerpt}</p>
+                <div style={{ marginTop: "auto" }}>
+                  <Link href={`/blog/${post.slug}`} className="btn btn-outline" style={{ padding: "0.8rem 1.5rem", fontSize: "0.75rem" }}>Read More</Link>
+                </div>
               </div>
             ))}
           </div>
