@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Metadata } from "next";
 import BookingWidget from "@/components/BookingWidget";
+import TestimonialSlider from "@/components/TestimonialSlider";
 
 export const metadata: Metadata = {
   title: `${HOTEL_DATA.name} | Best Premium Luxury Hotel in Ujjain`,
@@ -146,20 +147,12 @@ export default function Home() {
       </section>
 
       <section style={{ backgroundColor: 'var(--color-charcoal)', padding: 'var(--space-xl) 0', borderTop: '1px solid rgba(255,255,255,0.05)' }}>
-        <div className="container">
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '2rem' }}>
-            {[
-              { text: "Hands down the best hotel near Mahakaleshwar temple. The staff arranged our 3 AM cab for Bhasma Aarti perfectly. Highly recommended for spiritual travelers.", author: "Rajesh S., Verified Guest" },
-              { text: "We wanted a safe hotel for couples in Ujjain with good parking. Maa Sharda Palace delivered! The indoor pool was incredibly refreshing after our darshan.", author: "Priya M., Verified Guest" },
-              { text: "We booked the best banquet halls in Ujjain for our anniversary here. The catering and luxury rooms made our family stay unforgettable.", author: "Sunil V., Verified Guest" }
-            ].map((review, i) => (
-              <div key={i} style={{ padding: '2rem', border: '1px solid rgba(212,175,55,0.2)', borderRadius: '8px', background: 'rgba(10,10,10,0.5)' }}>
-                <div style={{ color: 'var(--color-gold)', fontSize: '1.2rem', marginBottom: '1rem' }}>★★★★★</div>
-                <p style={{ fontStyle: 'italic', color: 'var(--color-alabaster)' }}>"{review.text}"</p>
-                <p style={{ color: 'var(--color-gold)', fontSize: '0.9rem', marginTop: '1rem', textTransform: 'uppercase' }}>- {review.author}</p>
-              </div>
-            ))}
+        <div className="container" style={{ maxWidth: '1200px' }}>
+          <div className="text-center reveal-up" style={{ marginBottom: '3rem' }}>
+            <h2>Testimonials</h2>
+            <p style={{ color: 'var(--color-gold)', marginTop: '1rem' }}>What our verified guests are saying about their stay.</p>
           </div>
+          <TestimonialSlider />
         </div>
       </section>
 
