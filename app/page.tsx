@@ -3,6 +3,7 @@ import { getHotelSchema, getFAQSchema } from "@/lib/schema";
 import Link from "next/link";
 import Image from "next/image";
 import { Metadata } from "next";
+import BookingWidget from "@/components/BookingWidget";
 
 export const metadata: Metadata = {
   title: `${HOTEL_DATA.name} | Best Premium Luxury Hotel in Ujjain`,
@@ -44,30 +45,7 @@ export default function Home() {
       </section>
 
       {/* Booking Widget */}
-      <div className="container">
-        <div className="booking-widget">
-          <div className="booking-field">
-            <label className="booking-label">Check In</label>
-            <input type="date" className="booking-input" />
-          </div>
-          <div className="booking-field">
-            <label className="booking-label">Check Out</label>
-            <input type="date" className="booking-input" />
-          </div>
-          <div className="booking-field">
-            <label className="booking-label">Guests</label>
-            <select className="booking-input">
-              <option value="1" style={{color: 'black'}}>1 Guest</option>
-              <option value="2" style={{color: 'black'}}>2 Guests</option>
-              <option value="3" style={{color: 'black'}}>3 Guests</option>
-              <option value="4+" style={{color: 'black'}}>4+ Guests</option>
-            </select>
-          </div>
-          <div className="booking-btn-container">
-            <a href={`tel:${HOTEL_DATA.phone}`} className="btn booking-btn">Check Availability</a>
-          </div>
-        </div>
-      </div>
+      <BookingWidget />
 
       <section>
         <div className="container">
