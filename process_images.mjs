@@ -8,32 +8,8 @@ const readFile = promisify(fs.readFile);
 
 const imagesToProcess = [
   {
-    src: 'C:\\Users\\Hp\\Desktop\\maa sharda\\photos\\Front View\\Day\\IMG_5446.jpg',
-    dest: 'public/images/hero-exterior.webp'
-  },
-  {
-    src: 'C:\\Users\\Hp\\Desktop\\maa sharda\\photos\\Executive - 321\\IMG_7841.HEIC',
+    src: 'C:\\Users\\Hp\\Desktop\\maa sharda\\photos\\Executive - 321\\IMG_7817.HEIC',
     dest: 'public/images/room-deluxe-double.webp'
-  },
-  {
-    src: 'C:\\Users\\Hp\\Desktop\\maa sharda\\photos\\Superior - 201\\IMG_7714.HEIC',
-    dest: 'public/images/room-deluxe-triple.webp'
-  },
-  {
-    src: 'C:\\Users\\Hp\\Desktop\\maa sharda\\photos\\Superior Deluxe - 202\\IMG_7735.HEIC',
-    dest: 'public/images/room-family.webp'
-  },
-  {
-    src: 'C:\\Users\\Hp\\Desktop\\maa sharda\\photos\\Banquet Hall - 1\\1 (1).png',
-    dest: 'public/images/banquet-grand.webp'
-  },
-  {
-    src: 'C:\\Users\\Hp\\Desktop\\maa sharda\\photos\\Banquet Hall - 2\\1 (1).png',
-    dest: 'public/images/banquet-royal.webp'
-  },
-  {
-    src: 'C:\\Users\\Hp\\Desktop\\maa sharda\\photos\\Banquet Hall - 3\\IMG_5419.jpg',
-    dest: 'public/images/banquet-intimate.webp'
   }
 ];
 

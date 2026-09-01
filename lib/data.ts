@@ -31,7 +31,7 @@ export const ROOMS_DATA = [
     beds: "1 double bed",
     description: "A comfortable and compact space perfect for solo travelers or couples visiting Ujjain. Designed for relaxation after a long day of pilgrimage or sightseeing.",
     amenities: ["Air conditioning", "Private bathroom", "Free toiletries", "Work desk", "TV/cable TV", "Electric kettle", "Wardrobe", "Free WiFi"],
-    image: "/images/room-deluxe-double.webp",
+    image: "/images/room-deluxe-double-v2.webp",
   },
   {
     id: "deluxe-triple",
