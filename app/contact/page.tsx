@@ -27,7 +27,7 @@ export default function Contact() {
         <div className="container">
           <div style={{ display: "flex", flexWrap: "wrap", gap: "4rem" }}>
             <div style={{ flex: "1 1 300px" }}>
-              <h2 style={{ color: "var(--color-gold)", marginBottom: "2rem" }}>Get In Touch</h2>
+              <h2 style={{ color: "var(--color-gold)", marginBottom: "2rem", textAlign: "left", whiteSpace: "nowrap", fontSize: "clamp(2rem, 3vw, 2.5rem)" }}>Get In Touch</h2>
               <div style={{ marginBottom: "2rem", color: "var(--color-alabaster)" }}>
                 <h3 style={{ fontSize: "1.2rem", marginBottom: "0.5rem", color: "var(--color-gold)" }}>Address</h3>
                 <p style={{ color: "var(--color-stone)" }}>{HOTEL_DATA.address}, {HOTEL_DATA.locality}, {HOTEL_DATA.region} - {HOTEL_DATA.postalCode}</p>
@@ -40,7 +40,7 @@ export default function Contact() {
               </div>
             </div>
             <div style={{ flex: "2 1 400px" }}>
-              <h2 style={{ color: "var(--color-gold)", marginBottom: "2rem" }}>Location</h2>
+              <h2 style={{ color: "var(--color-gold)", marginBottom: "2rem", textAlign: "left", fontSize: "clamp(2rem, 3vw, 2.5rem)" }}>Location</h2>
               {/* Note: Embedded maps should use verified GPS. Since this is an unverified placeholder lat/lng, we use a search query for safety. */}
               <iframe 
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14674.34316719142!2d75.7725!3d23.1539!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDA5JzE0LjAiTiA3NcKwNDYnMjEuMCJF!5e0!3m2!1sen!2sin!4v1633010000000!5m2!1sen!2sin" 
