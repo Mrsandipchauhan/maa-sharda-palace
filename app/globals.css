@@ -600,7 +600,7 @@ summary.faq-summary::after {
 }
 
 details.faq-item[open] summary.faq-summary::after {
-  content: '−';
+  content: 'âˆ’';
   transform: rotate(180deg);
 }
 
@@ -611,7 +611,7 @@ details.faq-item[open] summary.faq-summary::after {
   line-height: 1.6;
 }
 
-/* ─── Premium Footer ─── */
+/* â”€â”€â”€ Premium Footer â”€â”€â”€ */
 .premium-footer {
   background-color: #050505;
   position: relative;
@@ -763,7 +763,7 @@ details.faq-item[open] summary.faq-summary::after {
   padding-left: 4px;
 }
 
-/* ─── Mobile Responsive ─── */
+/* â”€â”€â”€ Mobile Responsive â”€â”€â”€ */
 @media (max-width: 1024px) {
   .footer-grid-4 {
     grid-template-columns: 1fr 1fr;
@@ -794,49 +794,46 @@ details.faq-item[open] summary.faq-summary::after {
   }
 }
 
+/* Testimonial Slider */
+.testimonial-slider-container {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  position: relative;
+  padding: 1rem 0;
+}
 
- / *   T e s t i m o n i a l   S l i d e r   * / 
- . t e s t i m o n i a l - s l i d e r - c o n t a i n e r   { 
-     o v e r f l o w :   h i d d e n ; 
-     w h i t e - s p a c e :   n o w r a p ; 
-     w i d t h :   1 0 0 % ; 
-     p o s i t i o n :   r e l a t i v e ; 
-     p a d d i n g :   1 r e m   0 ; 
- } 
- 
- . t e s t i m o n i a l - t r a c k   { 
-     d i s p l a y :   i n l i n e - b l o c k ; 
-     a n i m a t i o n :   s c r o l l - t e s t i m o n i a l s   4 0 s   l i n e a r   i n f i n i t e ; 
- } 
- 
- . t e s t i m o n i a l - t r a c k : h o v e r   { 
-     a n i m a t i o n - p l a y - s t a t e :   p a u s e d ; 
- } 
- 
- . t e s t i m o n i a l - c a r d   { 
-     d i s p l a y :   i n l i n e - f l e x ; 
-     f l e x - d i r e c t i o n :   c o l u m n ; 
-     w i d t h :   3 5 0 p x ; 
-     h e i g h t :   2 5 0 p x ; 
-     m a r g i n - r i g h t :   2 r e m ; 
-     p a d d i n g :   2 r e m ; 
-     b o r d e r :   1 p x   s o l i d   r g b a ( 2 1 2 , 1 7 5 , 5 5 , 0 . 2 ) ; 
-     b o r d e r - r a d i u s :   8 p x ; 
-     b a c k g r o u n d :   r g b a ( 1 0 , 1 0 , 1 0 , 0 . 5 ) ; 
-     w h i t e - s p a c e :   n o r m a l ; 
-     v e r t i c a l - a l i g n :   t o p ; 
- } 
- 
- @ k e y f r a m e s   s c r o l l - t e s t i m o n i a l s   { 
-     0 %   {   t r a n s f o r m :   t r a n s l a t e X ( 0 ) ;   } 
-     1 0 0 %   {   t r a n s f o r m :   t r a n s l a t e X ( - 5 0 % ) ;   } 
- } 
- 
- @ m e d i a   ( m a x - w i d t h :   7 6 8 p x )   { 
-     . t e s t i m o n i a l - c a r d   { 
-         w i d t h :   2 8 0 p x ; 
-         h e i g h t :   2 8 0 p x ; 
-     } 
- } 
-  
- 
+.testimonial-track {
+  display: inline-block;
+  animation: scroll-testimonials 40s linear infinite;
+}
+
+.testimonial-track:hover {
+  animation-play-state: paused;
+}
+
+.testimonial-card {
+  display: inline-flex;
+  flex-direction: column;
+  width: 350px;
+  height: 250px;
+  margin-right: 2rem;
+  padding: 2rem;
+  border: 1px solid rgba(212,175,55,0.2);
+  border-radius: 8px;
+  background: rgba(10,10,10,0.5);
+  white-space: normal;
+  vertical-align: top;
+}
+
+@keyframes scroll-testimonials {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@media (max-width: 768px) {
+  .testimonial-card {
+    width: 280px;
+    height: 280px;
+  }
+}
