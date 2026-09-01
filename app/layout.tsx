@@ -4,6 +4,7 @@ import { HOTEL_DATA } from "@/lib/data";
 import { getHotelSchema } from "@/lib/schema";
 import Link from "next/link";
 import SiteHeader from "@/components/SiteHeader";
+import WhatsAppButton from "@/components/WhatsAppButton";
 
 export const metadata: Metadata = {
   title: `${HOTEL_DATA.name} | Premium Luxury Hotel in Ujjain`,
@@ -119,6 +120,7 @@ export default function RootLayout({
             </div>
           </div>
         </footer>
+        <WhatsAppButton />
       </body>
     </html>
   );
