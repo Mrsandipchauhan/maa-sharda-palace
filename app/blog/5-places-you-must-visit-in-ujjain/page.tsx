@@ -103,57 +103,96 @@ export default function PlacesToVisitUjjain() {
         </div>
 
         <p>
-          Known globally as the <strong>spiritual capital of India</strong>, Ujjain is a city where time seems to stand still. Situated on the sacred banks of the <strong>Kshipra River</strong> in Madhya Pradesh, it is one of the seven holiest cities (Sapta Puri) in Hinduism. Whether you are a devout pilgrim seeking divine blessings or a cultural traveler eager to explore ancient Indian architecture, an <em>Ujjain darshan</em> promises an experience that is both profoundly moving and visually spectacular. 
+          Known globally as the <strong>spiritual capital of India</strong>, Ujjain is a city where time seems to stand still. Situated on the sacred banks of the <strong>Kshipra River</strong> in Madhya Pradesh, it is one of the seven holiest cities (Sapta Puri) in Hinduism.
         </p>
         <p>
-          Ujjain is renowned for hosting the monumental Simhastha Kumbh Mela every 12 years, but its spiritual energy is palpable every single day. The city is a labyrinth of winding alleys, reverberating temple bells, and chanting priests. If you are planning an <strong>Ujjain trip itinerary</strong>, narrowing down the countless temples and historical sites can be overwhelming. To help you experience the very best of this holy city, we have curated a comprehensive guide to the <strong>5 places you must visit in Ujjain</strong>.
+          Whether you are a devout pilgrim seeking divine blessings or a cultural traveler eager to explore ancient Indian architecture, an <em>Ujjain darshan</em> promises an experience that is both profoundly moving and visually spectacular. 
+        </p>
+        <p>
+          Ujjain is renowned for hosting the monumental Simhastha Kumbh Mela every 12 years, but its spiritual energy is palpable every single day. The city is a labyrinth of winding alleys, reverberating temple bells, and chanting priests.
+        </p>
+        <p>
+          If you are planning an <strong>Ujjain trip itinerary</strong>, narrowing down the countless temples and historical sites can be overwhelming. To help you experience the very best of this holy city, we have curated a comprehensive guide to the <strong>5 places you must visit in Ujjain</strong>.
         </p>
 
         <h2>1. Mahakaleshwar Jyotirlinga: The Heart of Ujjain</h2>
         <p>
-          No list of <strong>places to visit in Ujjain</strong> is complete without the world-famous Mahakaleshwar Jyotirlinga. It is the undisputed epicenter of the city's spiritual life. Dedicated to Lord Shiva, this temple houses one of the 12 sacred Jyotirlingas in India. What makes Mahakaleshwar truly unique is that the idol here is <em>Dakshinamukhi</em>—facing south—a unique feature upheld by tantric traditions.
+          No list of <strong>places to visit in Ujjain</strong> is complete without the world-famous Mahakaleshwar Jyotirlinga. It is the undisputed epicenter of the city's spiritual life. 
         </p>
         <p>
-          The most defining experience at Mahakaleshwar is the pre-dawn <strong>Bhasma Aarti</strong>. Witnessing the deity being anointed with sacred ash while the temple echoes with powerful Vedic chants is an experience that devotees describe as life-altering. Because of massive spiritual tourism demand, ensure you book your Bhasma Aarti tickets well in advance. Beyond the sanctum, the newly developed Mahakal Lok Corridor is a magnificent architectural marvel that vividly depicts stories from the Shiva Purana through grand statues and murals.
+          Dedicated to Lord Shiva, this temple houses one of the 12 sacred Jyotirlingas in India. What makes Mahakaleshwar truly unique is that the idol here is <em>Dakshinamukhi</em>—facing south—a unique feature upheld by tantric traditions.
+        </p>
+        <p>
+          The most defining experience at Mahakaleshwar is the pre-dawn <strong>Bhasma Aarti</strong>. Witnessing the deity being anointed with sacred ash while the temple echoes with powerful Vedic chants is an experience that devotees describe as life-altering.
+        </p>
+        <p>
+          Because of massive spiritual tourism demand, ensure you book your Bhasma Aarti tickets well in advance. Beyond the sanctum, the newly developed Mahakal Lok Corridor is a magnificent architectural marvel that vividly depicts stories from the Shiva Purana.
         </p>
 
         <h2>2. Kal Bhairav Temple: The Fierce Guardian</h2>
         <p>
-          Located about 8 kilometers from the city center, the Kal Bhairav Temple is one of the most unique and intriguing <strong>Ujjain tourist places</strong>. Kal Bhairav is revered as the fierce manifestation of Lord Shiva and the guardian deity (Kotwal) of Ujjain. It is a long-held belief that any pilgrimage to Ujjain is incomplete without seeking his permission and blessings.
+          Located about 8 kilometers from the city center, the Kal Bhairav Temple is one of the most unique and intriguing <strong>Ujjain tourist places</strong>. Kal Bhairav is revered as the fierce manifestation of Lord Shiva and the guardian deity (Kotwal) of Ujjain.
         </p>
         <p>
-          The temple is famous worldwide for its unconventional ritual: devotees offer liquor to the deity as prasad. The priest pours the liquor into a shallow plate and holds it to the deity's lips, and miraculously, the liquid disappears. This fascinating phenomenon draws thousands of curious visitors and devout followers daily. The temple complex itself is ancient, featuring Maratha-style architecture that adds to its mystical aura.
+          It is a long-held belief that any pilgrimage to Ujjain is incomplete without seeking his permission and blessings. The temple is famous worldwide for its unconventional ritual: devotees offer liquor to the deity as prasad. 
+        </p>
+        <p>
+          The priest pours the liquor into a shallow plate and holds it to the deity's lips, and miraculously, the liquid disappears. This fascinating phenomenon draws thousands of curious visitors and devout followers daily. 
+        </p>
+        <p>
+          The temple complex itself is ancient, featuring Maratha-style architecture that adds to its mystical aura.
         </p>
 
         <h2>3. Harsiddhi Mata Temple: The Sacred Shakti Peeth</h2>
         <p>
-          Just a short walk from the Mahakaleshwar Temple lies the Harsiddhi Mata Temple, an essential stop on your <strong>Ujjain darshan</strong>. This temple is one of the 51 sacred Shakti Peethas across the Indian subcontinent. According to Hindu mythology, it is the exact spot where the elbow of Goddess Sati fell when Lord Shiva carried her burning body. 
+          Just a short walk from the Mahakaleshwar Temple lies the Harsiddhi Mata Temple, an essential stop on your <strong>Ujjain darshan</strong>. This temple is one of the 51 sacred Shakti Peethas across the Indian subcontinent.
         </p>
         <p>
-          The temple is painted in a striking deep red and houses the idols of three goddesses: Annapurna, Harsiddhi, and Mahasaraswati. However, the most breathtaking feature of this temple is the two massive, towering Deepstambhas (lamp pillars) located in the courtyard. Every evening, during the Navratri festival or special occasions, hundreds of oil lamps are lit on these pillars. The sight of these blazing pillars against the night sky is utterly mesmerizing and offers incredible photography opportunities.
+          According to Hindu mythology, it is the exact spot where the elbow of Goddess Sati fell when Lord Shiva carried her burning body. The temple is painted in a striking deep red and houses the idols of three goddesses: Annapurna, Harsiddhi, and Mahasaraswati. 
+        </p>
+        <p>
+          However, the most breathtaking feature of this temple is the two massive, towering Deepstambhas (lamp pillars) located in the courtyard. 
+        </p>
+        <p>
+          Every evening, during the Navratri festival or special occasions, hundreds of oil lamps are lit on these pillars. The sight of these blazing pillars against the night sky is utterly mesmerizing and offers incredible photography opportunities.
         </p>
 
         <h2>4. Ram Ghat on the Kshipra River: A Spiritual Gathering</h2>
         <p>
-          To truly absorb the serene and timeless atmosphere of Ujjain, you must spend an evening at Ram Ghat. The Kshipra River is considered as sacred as the Ganges, and millions of pilgrims take a holy dip in its waters during the Kumbh Mela to wash away their sins. 
+          To truly absorb the serene and timeless atmosphere of Ujjain, you must spend an evening at Ram Ghat. The Kshipra River is considered as sacred as the Ganges.
         </p>
         <p>
-          Visiting Ram Ghat at dusk is highly recommended. As the sun sets, the ghat comes alive with the magnificent evening Aarti. Priests perform synchronized rituals with giant, flaming brass lamps while the rhythmic sound of damrus (hand drums) and bells fills the air. Sitting on the steps of the ghat, watching the reflection of the flames dance on the rippling waters of the Kshipra, is an experience that brings profound peace and introspection.
+          Millions of pilgrims take a holy dip in its waters during the Kumbh Mela to wash away their sins. Visiting Ram Ghat at dusk is highly recommended. 
+        </p>
+        <p>
+          As the sun sets, the ghat comes alive with the magnificent evening Aarti. Priests perform synchronized rituals with giant, flaming brass lamps while the rhythmic sound of damrus (hand drums) and bells fills the air. 
+        </p>
+        <p>
+          Sitting on the steps of the ghat, watching the reflection of the flames dance on the rippling waters of the Kshipra, is an experience that brings profound peace and introspection.
         </p>
 
         <h2>5. Mangalnath Temple: The Birthplace of Mars</h2>
         <p>
-          Rounding out our top 5 <strong>places to visit in Ujjain</strong> is the fascinating Mangalnath Temple. Situated on a serene hillock overlooking the expansive waters of the Kshipra River, this temple is totally unique because it is dedicated to Mangal (the planet Mars). According to the ancient Hindu text, the Matsya Purana, Ujjain is considered the geographical birthplace of Mars.
+          Rounding out our top 5 <strong>places to visit in Ujjain</strong> is the fascinating Mangalnath Temple. Situated on a serene hillock overlooking the expansive waters of the Kshipra River, this temple is totally unique.
         </p>
         <p>
-          The temple is highly revered by individuals seeking to resolve astrological afflictions, specifically the <em>Mangal Dosh</em>. Even if you are not astrologically inclined, the temple is worth visiting for its tranquil atmosphere and stunning panoramic views of the river and surrounding countryside. Away from the intense crowds of the city center, Mangalnath offers a quiet space for meditation and reflection.
+          It is dedicated to Mangal (the planet Mars). According to the ancient Hindu text, the Matsya Purana, Ujjain is considered the geographical birthplace of Mars.
+        </p>
+        <p>
+          The temple is highly revered by individuals seeking to resolve astrological afflictions, specifically the <em>Mangal Dosh</em>. 
+        </p>
+        <p>
+          Even if you are not astrologically inclined, the temple is worth visiting for its tranquil atmosphere and stunning panoramic views of the river and surrounding countryside. Away from the intense crowds of the city center, Mangalnath offers a quiet space for meditation and reflection.
         </p>
 
         <hr style={{ margin: "3rem 0", borderColor: "rgba(212,175,55,0.2)" }} />
 
         <h2>Conclusion</h2>
         <p>
-          Ujjain is not just a destination; it is an experience that resonates deep within the soul. From the fierce energy of Kal Bhairav to the cosmic significance of Mahakaleshwar, every corner of this city tells a story of devotion, history, and mythology. When planning your <strong>Ujjain trip itinerary</strong>, ensure you give yourself enough time to soak in the spiritual ambiance rather than just rushing from one temple to another.
+          Ujjain is not just a destination; it is an experience that resonates deep within the soul. From the fierce energy of Kal Bhairav to the cosmic significance of Mahakaleshwar, every corner of this city tells a story of devotion, history, and mythology. 
+        </p>
+        <p>
+          When planning your <strong>Ujjain trip itinerary</strong>, ensure you give yourself enough time to soak in the spiritual ambiance rather than just rushing from one temple to another.
         </p>
         <p>
           After a long day of exploring these divine sites, returning to a comfortable and luxurious stay is essential. At <strong>{HOTEL_DATA.name}</strong>, we offer the perfect blend of modern luxury and traditional hospitality, ensuring you are well-rested for your spiritual adventures. 
