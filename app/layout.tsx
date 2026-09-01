@@ -4,6 +4,7 @@ import { HOTEL_DATA } from "@/lib/data";
 import { getHotelSchema } from "@/lib/schema";
 import Link from "next/link";
 import SiteHeader from "@/components/SiteHeader";
+import ScrollToTop from "@/components/ScrollToTop";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
 export const metadata: Metadata = {
@@ -31,6 +32,7 @@ export default function RootLayout({
         />
       </head>
       <body>
+        <ScrollToTop />
         <SiteHeader />
 
         <main>
