@@ -149,9 +149,8 @@ export default function Home() {
 
       <section style={{ backgroundColor: 'var(--color-charcoal)', padding: 'var(--space-xl) 0', borderTop: '1px solid rgba(255,255,255,0.05)' }}>
         <div className="container" style={{ maxWidth: '1200px' }}>
-          <div className="text-center reveal-up" style={{ marginBottom: '3rem' }}>
+          <div className="text-center reveal-up" style={{ marginBottom: '2rem' }}>
             <h2>Testimonials</h2>
-            <p style={{ color: 'var(--color-gold)', marginTop: '1rem' }}>What our verified guests are saying about their stay.</p>
           </div>
           <TestimonialSlider />
         </div>
