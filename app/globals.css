@@ -371,12 +371,14 @@ input[type="date"]::-webkit-calendar-picker-indicator:hover {
 .page-header h1 {
   text-align: center;
   width: 100%;
+  padding: 0 1.25rem;
 }
 
 .page-header p {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  padding: 0 1.25rem;
 }
 
 /* Blog Content Typography */
