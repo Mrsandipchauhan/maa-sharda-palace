@@ -816,7 +816,8 @@ details.faq-item[open] summary.faq-summary::after {
   display: inline-flex;
   flex-direction: column;
   width: 350px;
-  height: 250px;
+  height: auto;
+  min-height: 300px;
   margin-right: 2rem;
   padding: 2rem;
   border: 1px solid rgba(212,175,55,0.2);
@@ -834,6 +835,7 @@ details.faq-item[open] summary.faq-summary::after {
 @media (max-width: 768px) {
   .testimonial-card {
     width: 280px;
-    height: 280px;
+    height: auto;
+    min-height: 320px;
   }
 }
