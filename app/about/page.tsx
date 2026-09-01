@@ -30,7 +30,7 @@ export default function About() {
             {HOTEL_DATA.name} was established with a singular vision: to provide a sanctuary of comfort and peace for pilgrims and travelers visiting the sacred city of Ujjain. Located conveniently on the Indore Road, our 2.5-star property is designed to be your home away from home.
           </p>
           <p style={{ marginBottom: "3rem", fontSize: "1.1rem", color: "var(--color-alabaster)", lineHeight: "1.8" }}>
-            With over 65 beautifully appointed rooms, we cater to all types of guests—from solo devotees seeking blessings at Mahakaleshwar Jyotirlinga to large families and corporate groups. Our dedication to service ensures that every guest experiences the warmth of authentic Indian hospitality.
+            With over 65 beautifully appointed rooms, we cater to all types of guests | from solo devotees seeking blessings at Mahakaleshwar Jyotirlinga to large families and corporate groups. Our dedication to service ensures that every guest experiences the warmth of authentic Indian hospitality.
           </p>
           <h2 style={{ color: "var(--color-gold)", marginBottom: "1.5rem" }}>Our Commitment</h2>
           <p style={{ fontSize: "1.1rem", color: "var(--color-alabaster)", lineHeight: "1.8" }}>

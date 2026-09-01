@@ -44,7 +44,7 @@ export default function RootLayout({
           <div className="container">
             <div className="footer-grid-4">
 
-              {/* Column 1 — Brand */}
+              {/* Column 1 | Brand */}
               <div className="footer-col footer-col-brand">
                 <img src="/logo-transparent.png" alt="Maa Sharda Palace Logo" className="footer-logo-img" />
                 <p className="footer-tagline">
@@ -60,7 +60,7 @@ export default function RootLayout({
                 </div>
               </div>
 
-              {/* Column 2 — Hotel Pages */}
+              {/* Column 2 | Hotel Pages */}
               <div className="footer-col">
                 <h4 className="footer-col-title">Our Hotel</h4>
                 <ul className="footer-menu">
@@ -73,7 +73,7 @@ export default function RootLayout({
                 </ul>
               </div>
 
-              {/* Column 3 — Guest Services */}
+              {/* Column 3 | Guest Services */}
               <div className="footer-col">
                 <h4 className="footer-col-title">Guest Services</h4>
                 <ul className="footer-menu">
@@ -86,7 +86,7 @@ export default function RootLayout({
                 </ul>
               </div>
 
-              {/* Column 4 — Contact */}
+              {/* Column 4 | Contact */}
               <div className="footer-col">
                 <h4 className="footer-col-title">Reach Us</h4>
                 <address className="footer-address">

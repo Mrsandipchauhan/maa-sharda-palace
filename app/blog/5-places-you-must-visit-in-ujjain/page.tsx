@@ -120,7 +120,7 @@ export default function PlacesToVisitUjjain() {
           No list of <strong>places to visit in Ujjain</strong> is complete without the world-famous Mahakaleshwar Jyotirlinga. It is the undisputed epicenter of the city's spiritual life. 
         </p>
         <p>
-          Dedicated to Lord Shiva, this temple houses one of the 12 sacred Jyotirlingas in India. What makes Mahakaleshwar truly unique is that the idol here is <em>Dakshinamukhi</em>—facing south—a unique feature upheld by tantric traditions.
+          Dedicated to Lord Shiva, this temple houses one of the 12 sacred Jyotirlingas in India. What makes Mahakaleshwar truly unique is that the idol here is <em>Dakshinamukhi</em> | facing south | a unique feature upheld by tantric traditions.
         </p>
         <p>
           The most defining experience at Mahakaleshwar is the pre-dawn <strong>Bhasma Aarti</strong>. Witnessing the deity being anointed with sacred ash while the temple echoes with powerful Vedic chants is an experience that devotees describe as life-altering.
