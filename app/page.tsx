@@ -9,7 +9,7 @@ import TestimonialSlider from "@/components/TestimonialSlider";
 export const metadata: Metadata = {
   title: `${HOTEL_DATA.name} | Best Premium Luxury Hotel in Ujjain`,
   description: `Looking for the best hotel near Mahakaleshwar Temple in Ujjain? ${HOTEL_DATA.name} offers premium luxury rooms, an indoor pool, and grand banquet halls for a perfect stay. We are the best hotel for family and affordable luxury.`,
-  keywords: ["best room hotel in ujjain", "best hotel for family in ujjain", "affordable luxury hotel ujjain", "ujjain hotel near mahakaleshwar"],
+  keywords: ["best room hotel in ujjain", "best hotel for family in ujjain", "affordable luxury hotel ujjain", "ujjain hotel near mahakaleshwar", "best hotel near me", "family hotel near me", "affordable hotel near me", "hotels near me"],
 };
 
 const HOMEPAGE_FAQS = [
@@ -22,7 +22,8 @@ const HOMEPAGE_FAQS = [
   { question: "Which hotel is best for wedding banquets in Ujjain?", answer: "Hotel Maa Sharda Palace offers the best banquet halls in Ujjain for weddings. Our 'Grand Sharda Banquet' accommodates up to 500 guests with complete event management." },
   { question: "What is the check-in and check-out time for hotels in Ujjain?", answer: "Our standard check-in time is 12:00 PM (Noon), and check-out is at 11:00 AM. We offer flexible early check-ins for pilgrims arriving for Mahakal Darshan, subject to availability." },
   { question: "Where to find the most affordable luxury hotel in Ujjain?", answer: "Hotel Maa Sharda Palace offers the perfect balance of premium amenities and affordable pricing. With spacious family rooms, free parking, and an indoor pool, it is widely considered the best value and affordable luxury hotel in Ujjain." },
-  { question: "Which is the best room hotel in Ujjain for couples?", answer: "If you are looking for the best room hotel in Ujjain, our Premium Suites offer elegant decor, extreme privacy, and 24-hour room service, making it the safest and best hotel for couples." }
+  { question: "Which is the best room hotel in Ujjain for couples?", answer: "If you are looking for the best room hotel in Ujjain, our Premium Suites offer elegant decor, extreme privacy, and 24-hour room service, making it the safest and best hotel for couples." },
+  { question: "If I am searching for the best family hotel near me in Ujjain, why choose Maa Sharda Palace?", answer: "When you search for 'best hotel near me' or 'family hotel near me' while in Ujjain, Maa Sharda Palace stands out due to our prime location on Indore Road. We offer expansive family rooms, secure private parking, and easy access to Mahakal Darshan without the inner-city traffic." }
 ];
 
 export default function Home() {

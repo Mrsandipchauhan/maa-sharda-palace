@@ -10,7 +10,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 export const metadata: Metadata = {
   title: `${HOTEL_DATA.name} | Premium Luxury Hotel in Ujjain`,
   description: `Experience unparalleled luxury at ${HOTEL_DATA.name}. Prime location near Mahakaleshwar Jyotirlinga, offering elegant rooms, family accommodations, and majestic banquets.`,
-  keywords: ["best room hotel", "best hotel for family", "affordable hotel in ujjain", "luxury hotel ujjain", "hotel near mahakaleshwar", "ujjain hotel with swimming pool", "best banquet halls in ujjain"],
+  keywords: ["best room hotel", "best hotel for family", "affordable hotel in ujjain", "luxury hotel ujjain", "hotel near mahakaleshwar", "ujjain hotel with swimming pool", "best banquet halls in ujjain", "hotel near me", "best hotel near me", "family hotel near me", "affordable hotel near me", "hotels near mahakaleshwar"],
   metadataBase: new URL(HOTEL_DATA.websiteUrl),
   alternates: {
     canonical: "/",

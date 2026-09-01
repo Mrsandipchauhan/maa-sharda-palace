@@ -37,7 +37,7 @@ export function getHotelSchema() {
       HOTEL_DATA.facebookUrl,
       HOTEL_DATA.instagramUrl
     ],
-    "keywords": "best room hotel, best hotel for family, affordable hotel in ujjain, luxury hotel near mahakaleshwar, hotel with swimming pool ujjain, best banquet halls in ujjain",
+    "keywords": "best room hotel, best hotel for family, affordable hotel in ujjain, luxury hotel near mahakaleshwar, hotel with swimming pool ujjain, best banquet halls in ujjain, best hotel near me, affordable hotel near me, family hotel near me, hotels near me",
     "amenityFeature": [
       {
         "@type": "LocationFeatureSpecification",
