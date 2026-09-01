@@ -43,6 +43,7 @@ export default function SiteHeader() {
             <li><Link href="/banquet-halls" onClick={closeMenu}>Weddings</Link></li>
             <li><Link href="/amenities" onClick={closeMenu}>Experience</Link></li>
             <li><Link href="/gallery" onClick={closeMenu}>Gallery</Link></li>
+            <li><Link href="/blog" onClick={closeMenu}>Blog</Link></li>
             <li><Link href="/contact" onClick={closeMenu}>Contact</Link></li>
           </ul>
         </nav>
