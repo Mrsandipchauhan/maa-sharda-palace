@@ -24,7 +24,7 @@ export default function BlogPostLayout({
         </div>
       </section>
 
-      <section style={{ padding: "var(--space-xl) 0" }}>
+      <section style={{ paddingTop: "var(--space-sm)", paddingBottom: "var(--space-xl)" }}>
         <div className="container" style={{ maxWidth: "800px" }}>
           <div className="blog-content">
             {children}
