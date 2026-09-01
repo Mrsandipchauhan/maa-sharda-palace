@@ -16,7 +16,7 @@ export default function BlogFAQ({ faqs }: BlogFAQProps) {
 
   return (
     <div className="faq-section" style={{ marginTop: "3rem", marginBottom: "2rem" }}>
-      <h2>Frequently Asked Questions (FAQs)</h2>
+      <h2>Frequently Asked Questions</h2>
       <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', textAlign: 'left', marginTop: "1.5rem" }}>
         {faqs.map((faq, index) => (
           <details key={index} className="faq-item">
