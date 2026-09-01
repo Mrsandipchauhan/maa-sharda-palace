@@ -44,7 +44,7 @@ export default function BlogIndex() {
       <section className="page-header">
         <div className="container">
           <h1 style={{ color: "var(--color-gold)", marginBottom: "1rem" }}>Travel & Spiritual Guide</h1>
-          <p style={{ margin: "0 auto", color: "var(--color-stone)" }}>Tips, guides, and stories for your visit to Ujjain.</p>
+          <p style={{ margin: "0 auto", textAlign: "center", color: "var(--color-stone)" }}>Tips, guides, and stories for your visit to Ujjain.</p>
         </div>
       </section>
 
