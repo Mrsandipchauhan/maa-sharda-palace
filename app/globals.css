@@ -390,6 +390,14 @@ input[type="date"]::-webkit-calendar-picker-indicator:hover {
   max-width: 100%;
 }
 
+.blog-content h2 {
+  font-size: clamp(1.8rem, 3.5vw, 2.4rem);
+}
+
+.blog-content h3 {
+  font-size: clamp(1.4rem, 2.5vw, 1.8rem);
+}
+
 .blog-content h2, .blog-content h3 {
   color: var(--color-gold);
   margin-top: 3rem;

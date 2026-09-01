@@ -1,6 +1,7 @@
 import { HOTEL_DATA } from "@/lib/data";
 import { Metadata } from "next";
 import BlogPostLayout from "@/components/BlogPostLayout";
+import BlogFAQ from "@/components/BlogFAQ";
 import Image from "next/image";
 
 export const metadata: Metadata = {
@@ -160,29 +161,28 @@ export default function PlacesToVisitUjjain() {
 
         <hr style={{ margin: "3rem 0", borderColor: "rgba(212,175,55,0.2)" }} />
 
-        <h2>Frequently Asked Questions (FAQs)</h2>
-        <div className="faq-section" style={{ marginTop: "2rem" }}>
-          <div style={{ marginBottom: "1.5rem" }}>
-            <h3 style={{ fontSize: "1.2rem", margin: "0 0 0.5rem 0", color: "var(--color-gold)" }}>Q: What is the best time to visit Ujjain?</h3>
-            <p style={{ margin: 0 }}>A: The best time to visit Ujjain is from October to March when the weather is pleasant for sightseeing and temple visits. Avoiding the extreme heat of summer is highly recommended.</p>
-          </div>
-          <div style={{ marginBottom: "1.5rem" }}>
-            <h3 style={{ fontSize: "1.2rem", margin: "0 0 0.5rem 0", color: "var(--color-gold)" }}>Q: How many days are enough for Ujjain darshan?</h3>
-            <p style={{ margin: 0 }}>A: A 2-day trip is usually sufficient to cover the top 5 places to visit in Ujjain, including the Mahakaleshwar Jyotirlinga, Kal Bhairav, and enjoying the evening Aarti at Ram Ghat.</p>
-          </div>
-          <div style={{ marginBottom: "1.5rem" }}>
-            <h3 style={{ fontSize: "1.2rem", margin: "0 0 0.5rem 0", color: "var(--color-gold)" }}>Q: Is photography allowed inside Mahakaleshwar Temple?</h3>
-            <p style={{ margin: 0 }}>A: No, photography and mobile phones are strictly prohibited inside the main sanctum of the Mahakaleshwar Temple. Lockers are available outside to store your belongings.</p>
-          </div>
-          <div style={{ marginBottom: "1.5rem" }}>
-            <h3 style={{ fontSize: "1.2rem", margin: "0 0 0.5rem 0", color: "var(--color-gold)" }}>Q: How can I book the Bhasma Aarti at Mahakaleshwar?</h3>
-            <p style={{ margin: 0 }}>A: Bhasma Aarti bookings can be done online through the official temple trust website. It is highly recommended to book at least 15 to 30 days in advance due to massive spiritual tourism demand.</p>
-          </div>
-          <div style={{ marginBottom: "1.5rem" }}>
-            <h3 style={{ fontSize: "1.2rem", margin: "0 0 0.5rem 0", color: "var(--color-gold)" }}>Q: Which is the best hotel to stay in Ujjain near the temples?</h3>
-            <p style={{ margin: 0 }}>A: Hotel Maa Sharda Palace is one of the top-rated hotels in Ujjain, offering premium amenities, luxury rooms, and easy access to all major temples and tourist attractions in the city.</p>
-          </div>
-        </div>
+        <BlogFAQ faqs={[
+          {
+            question: "What is the best time to visit Ujjain?",
+            answer: "The best time to visit Ujjain is from October to March when the weather is pleasant for sightseeing and temple visits. Avoiding the extreme heat of summer is highly recommended."
+          },
+          {
+            question: "How many days are enough for Ujjain darshan?",
+            answer: "A 2-day trip is usually sufficient to cover the top 5 places to visit in Ujjain, including the Mahakaleshwar Jyotirlinga, Kal Bhairav, and enjoying the evening Aarti at Ram Ghat."
+          },
+          {
+            question: "Is photography allowed inside Mahakaleshwar Temple?",
+            answer: "No, photography and mobile phones are strictly prohibited inside the main sanctum of the Mahakaleshwar Temple. Lockers are available outside to store your belongings."
+          },
+          {
+            question: "How can I book the Bhasma Aarti at Mahakaleshwar?",
+            answer: "Bhasma Aarti bookings can be done online through the official temple trust website. It is highly recommended to book at least 15 to 30 days in advance due to massive spiritual tourism demand."
+          },
+          {
+            question: "Which is the best hotel to stay in Ujjain near the temples?",
+            answer: `Hotel Maa Sharda Palace is one of the top-rated hotels in Ujjain, offering premium amenities, luxury rooms, and easy access to all major temples and tourist attractions in the city.`
+          }
+        ]} />
 
       </BlogPostLayout>
     </>
