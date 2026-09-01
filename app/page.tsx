@@ -44,41 +44,28 @@ export default function Home() {
       </section>
 
       {/* Booking Widget */}
-      <div className="booking-widget container" style={{ 
-        background: 'rgba(15, 15, 15, 0.8)', 
-        backdropFilter: 'blur(10px)',
-        border: '1px solid rgba(212, 175, 55, 0.2)', 
-        borderRadius: '8px',
-        padding: '2.5rem 2rem', 
-        display: 'flex', 
-        flexWrap: 'wrap', 
-        gap: '2.5rem', 
-        alignItems: 'flex-end', 
-        justifyContent: 'space-between', 
-        zIndex: 10, 
-        position: 'relative',
-        marginTop: '-4rem',
-        boxShadow: '0 20px 40px rgba(0,0,0,0.5)'
-      }}>
-        <div style={{ flex: '1 1 200px' }}>
-          <label style={{ display: 'block', fontSize: '0.75rem', textTransform: 'uppercase', color: 'rgba(212, 175, 55, 0.8)', marginBottom: '0.75rem', letterSpacing: '0.1em' }}>Check In</label>
-          <input type="date" style={{ width: '100%', background: 'transparent', border: 'none', borderBottom: '1px solid rgba(255,255,255,0.2)', color: 'white', padding: '0.5rem 0', outline: 'none', fontSize: '1.1rem', fontFamily: 'inherit' }} />
-        </div>
-        <div style={{ flex: '1 1 200px' }}>
-          <label style={{ display: 'block', fontSize: '0.75rem', textTransform: 'uppercase', color: 'rgba(212, 175, 55, 0.8)', marginBottom: '0.75rem', letterSpacing: '0.1em' }}>Check Out</label>
-          <input type="date" style={{ width: '100%', background: 'transparent', border: 'none', borderBottom: '1px solid rgba(255,255,255,0.2)', color: 'white', padding: '0.5rem 0', outline: 'none', fontSize: '1.1rem', fontFamily: 'inherit' }} />
-        </div>
-        <div style={{ flex: '1 1 150px' }}>
-          <label style={{ display: 'block', fontSize: '0.75rem', textTransform: 'uppercase', color: 'rgba(212, 175, 55, 0.8)', marginBottom: '0.75rem', letterSpacing: '0.1em' }}>Guests</label>
-          <select style={{ width: '100%', background: 'transparent', border: 'none', borderBottom: '1px solid rgba(255,255,255,0.2)', color: 'white', padding: '0.5rem 0', outline: 'none', fontSize: '1.1rem', fontFamily: 'inherit', cursor: 'pointer' }}>
-            <option value="1" style={{color: 'black'}}>1 Guest</option>
-            <option value="2" style={{color: 'black'}}>2 Guests</option>
-            <option value="3" style={{color: 'black'}}>3 Guests</option>
-            <option value="4+" style={{color: 'black'}}>4+ Guests</option>
-          </select>
-        </div>
-        <div style={{ flex: '1 1 200px', textAlign: 'center' }}>
-          <a href={`tel:${HOTEL_DATA.phone}`} className="btn" style={{ padding: '1.25rem 2rem', width: '100%', border: 'none' }}>Check Availability</a>
+      <div className="container">
+        <div className="booking-widget">
+          <div className="booking-field">
+            <label className="booking-label">Check In</label>
+            <input type="date" className="booking-input" />
+          </div>
+          <div className="booking-field">
+            <label className="booking-label">Check Out</label>
+            <input type="date" className="booking-input" />
+          </div>
+          <div className="booking-field">
+            <label className="booking-label">Guests</label>
+            <select className="booking-input">
+              <option value="1" style={{color: 'black'}}>1 Guest</option>
+              <option value="2" style={{color: 'black'}}>2 Guests</option>
+              <option value="3" style={{color: 'black'}}>3 Guests</option>
+              <option value="4+" style={{color: 'black'}}>4+ Guests</option>
+            </select>
+          </div>
+          <div className="booking-btn-container">
+            <a href={`tel:${HOTEL_DATA.phone}`} className="btn booking-btn">Check Availability</a>
+          </div>
         </div>
       </div>
 
